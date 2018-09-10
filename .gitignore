@@ -4,3 +4,8 @@ Chapter 02/.vs/Chapter 02/v15/Server/sqlite3/db.lock
 Chapter 02/.vs/Chapter 02/v15/Server/sqlite3/storage.ide
 Chapter 02/.vs/Chapter 02/v15/Server/sqlite3/storage.ide-shm
 Chapter 02/.vs/Chapter 02/v15/Server/sqlite3/storage.ide-wal
+Chapter 04/.vs/Chapter 04/v15/Server/sqlite3/storage.ide-wal
+*.lock
+Chapter 04/.vs/Chapter 04/v15/.suo
+*.ide
+*.ide-shm
