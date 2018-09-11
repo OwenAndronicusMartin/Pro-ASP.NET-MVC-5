@@ -191,11 +191,13 @@ namespace LanguageFeatures.Controllers
 
             var foundProducts = products.OrderByDescending(e => e.Price).Take(3).Select(e => new { e.Name, e.Price });
 
+            products[2] = new Product { Name = "Stadium", Price = 79600M };
+
             // create the result            
             //int count = 0; -- needed for LINQ query syntax
             StringBuilder result = new StringBuilder();
             foreach (var p in foundProducts) {
-                result.AppendFormat("Price: {0} ", p.Price);
+                result.AppendFormat("Name: {0} - Price: {1} ", p.Name, p.Price);
                 //if (++count == 3) {
                 //    break;
                 //} -- needed for LINQ query syntax
